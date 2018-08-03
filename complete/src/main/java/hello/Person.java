@@ -8,6 +8,15 @@ public class Person {
 
 	private String firstName;
 	private String lastName;
+	private String city;
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
 
 	public String getFirstName() {
 		return firstName;
